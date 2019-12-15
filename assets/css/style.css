@@ -1,0 +1,97 @@
+    .homepage {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(230, 230, 230);
+        position: absolute;
+    }
+    
+    .postarea {
+        background-color: white;
+        margin: 10% 30% 10% 30%;
+        width: 30%;
+        height: 40%;
+        position: relative;
+    }
+    
+    .top-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .topleft {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .topright {
+        margin-right: 0%;
+    }
+    
+    .options {
+        width: 50px;
+    }
+    
+    .postdate {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    
+    .michael {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .lower {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    button {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        border: transparent;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    .lowerleft {
+        width: calc(100%/3);
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+    
+    .lowermiddle {
+        width: calc(100%/3);
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    
+    .lowerright {
+        width: calc(100%/3);
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .like {
+        width: 20%;
+        height: 20%;
+    }
+    
+    .comment {
+        width: 20%;
+        height: 20%;
+    }
+    
+    .share {
+        height: 50%;
+        width: 50%;
+    }
