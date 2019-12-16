@@ -58,8 +58,9 @@
     .postdata {
         display: flex;
         flex-direction: row;
-        margin-top: 2%;
+        margin-left: 9%;
         width: auto;
+        margin-top: -3%;
     }
     
     .postdata:hover {
