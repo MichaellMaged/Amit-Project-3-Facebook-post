@@ -8,7 +8,7 @@
     }
     
     .postarea {
-        display: ;
+        display: inline-block;
         background-color: white;
         margin: 10% 30% 10% 30%;
         width: 30%;
@@ -20,6 +20,7 @@
     .top-area {
         display: flex;
         flex-direction: row;
+        flex-basis: auto;
         justify-content: space-between;
     }
     
@@ -54,10 +55,26 @@
         width: 100px;
     }
     
-    .postdate {
+    .postdata {
+        display: flex;
+        flex-direction: row;
         margin-top: 2%;
-        margin-left: 2%;
+        width: 100%;
+    }
+    
+    .postdata:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .postdate {
+        width: 10%;
+        padding-right: 0px;
         font-size: x-small;
+    }
+    
+    .content area {
+        display: inline-block;
     }
     
     .content {
@@ -67,13 +84,18 @@
     }
     
     .upper {
+        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 9%;
+        margin-top: 6%;
         margin-left: 2%;
-        margin-bottom: 3%;
+        margin-bottom: 1%;
         font-size: 12px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-top: rgb(180, 175, 175) 0.2px solid;
+        border-bottom: rgb(180, 175, 175) 0.2px solid;
     }
     
     .upperleft {
@@ -81,12 +103,20 @@
         flex-direction: row;
     }
     
+    .upperleft:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
     .reactions {
         height: 15px;
         width: 15px;
     }
     
-    .upperright {}
+    .upperright:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
     
     .lower {
         display: flex;
