@@ -3,13 +3,17 @@
         height: 100%;
         background-color: rgb(230, 230, 230);
         position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
     }
     
     .postarea {
+        display: ;
         background-color: white;
         margin: 10% 30% 10% 30%;
         width: 30%;
         height: 40%;
+        border-radius: 2%;
         position: relative;
     }
     
@@ -22,33 +26,74 @@
     .topleft {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .topright {
-        margin-right: 0%;
-    }
-    
-    .options {
-        width: 50px;
-    }
-    
-    .postdate {
-        margin-top: 0%;
-        margin-left: 0%;
+        justify-content: flex-end;
     }
     
     .michael {
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        margin-left: 2%;
+        margin-top: 5%;
+        width: 40px;
+        height: 40px;
     }
+    
+    .username {
+        padding-left: 2%;
+        font-weight: bold;
+        font-size: 14px;
+        width: 120px;
+        color: #385898;
+    }
+    
+    .username:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .options {
+        width: 100px;
+    }
+    
+    .postdate {
+        margin-top: 2%;
+        margin-left: 2%;
+        font-size: x-small;
+    }
+    
+    .content {
+        font-size: small;
+        margin-left: 2%;
+        text-align: left;
+    }
+    
+    .upper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 9%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+        font-size: 12px;
+    }
+    
+    .upperleft {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .reactions {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .upperright {}
     
     .lower {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-end;
+        margin-top: 0;
     }
     
     button {
@@ -60,11 +105,16 @@
         cursor: pointer;
     }
     
+    button:hover {
+        background-color: rgb(182, 174, 174);
+        border-radius: 5%;
+    }
+    
     .lowerleft {
         width: calc(100%/3);
         display: flex;
         flex-direction: row-reverse;
-        justify-content: flex-start;
+        justify-content: center;
     }
     
     .lowermiddle {
@@ -77,21 +127,36 @@
     .lowerright {
         width: calc(100%/3);
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         justify-content: center;
+        margin-right: 0%;
     }
     
     .like {
-        width: 20%;
-        height: 20%;
+        width: 15%;
+        height: 15%;
+        padding-right: 8%;
     }
     
     .comment {
-        width: 20%;
-        height: 20%;
+        width: 15%;
+        height: 15%;
+        padding-right: 7%;
     }
     
     .share {
-        height: 50%;
-        width: 50%;
+        height: 57%;
+        width: 57%;
+        padding-right: 8%;
+    }
+    
+    .more {
+        margin-top: 6%;
+        margin-left: 75%;
+        height: 25%;
+        width: 35%;
+    }
+    
+    .options:hover {
+        background-color: transparent;
     }
